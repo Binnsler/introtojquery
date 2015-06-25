@@ -1,0 +1,15 @@
+.button{
+	height: 20px;
+	width: 150px;
+	background-color: blue;
+	text-align: center;
+	padding: 5px;
+	margin: 5% 0;
+}
+
+.button a{
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	
+}
