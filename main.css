@@ -1,4 +1,5 @@
-.button{
+/* Part 1 - The Good */
+/*.button{
 	height: 20px;
 	width: 150px;
 	background-color: blue;
@@ -12,4 +13,10 @@
 	text-decoration: none;
 	margin: 5px;
 	
+}*/
+
+/* Part 2 - The Bad */
+
+.paragraph-hover{
+	color: pink;
 }

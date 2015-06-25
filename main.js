@@ -15,3 +15,22 @@
 
 // Part 2 - The Bad (<i>Establishing shot of saloon, with saloon piano music plays</i>)
 
+$('p').mouseover(function(){
+	$(this).addClass('paragraph-hover');
+});
+
+$('h1').mouseover(function(){
+	$(this).append('!');
+});
+
+$('a').click(function(event){
+	var navConfirm = confirm("Do you want to navigate away from this page?");
+	if(navConfirm === true){
+
+	}
+	else if (navConfirm === false){
+		console.log("Test");
+		event.preventDefault();
+		$('a').remove();
+	}
+});
